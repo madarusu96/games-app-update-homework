@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to left, rgb(78, 230, 78), rgb(26, 92, 37)) ;
+}
+
+.game-box{
+    background-color: #F9F9F9;
+    border: 5px solid rgb(15, 128, 15);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.delete-btn {
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
+.update-btn {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+
+.submitBtn {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(0, 189, 0);
+    border: none;
+    color: white;
+
+}
+
+img {
+    width: 90px;
+    float:left;
+    margin: 10px;
+}
+
+h1 {
+    color: blue;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.creationForm {
+    background-color: #F9F9F9;
+    color: black;
+    width: 900px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(15, 128, 15);
+    margin: 20px auto;
+}
+
+.creationForm>label,
+.creationForm>input,
+.creationForm>textarea,
+.creationForm>select
+ {
+    display: block;
+    margin: 5px 15px;
+}
+
+.inputError {
+    border: 1px solid red;
+}
+
+.errorMsg {
+    margin-left: 10px;
+    color: #e85023;
+    display: block;
+    font-size: 15px;
+}
+
+#updateForm{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#updateForm>label,
+#updateForm>input,
+#updateForm>textarea,
+#updateForm>select
+ {
+    display: block;
+    margin: 5px 15px;
+}
