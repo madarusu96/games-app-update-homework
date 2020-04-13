@@ -7,7 +7,7 @@
     <title>Games App</title>
 </head>
 <body>
-    <form class="creationForm">
+    <form class="creationForm" action="" method="POST">
         <label for="gameTitle">Title *</label>
         <input type="text" value="" name="gameTitle" id="gameTitle" />
 
@@ -30,27 +30,26 @@
         <label for="gameRelease">Release Date *</label>
         <input type="text" name="gameRelease" id="gameRelease" />
 
-        <button class="submitBtn">Create Game</button>
+        <button type="submit" class="submitBtn">Create Game</button>
     </form>
+    <div id="second-form">
+        <form class="creationForm" action="" method="POST">
+            <label for="gameTitle2">Title *</label>
+            <input type="text" value="" name="gameTitle2" id="gameTitle2" />
+    
+            <label for="gameDescription2">Description</label>
+            <textarea name="gameDescription2" id="gameDescription2"></textarea>
+    
+            <label for="gameImageUrl2">Image URL *</label>
+            <input type="text" name="gameImageUrl2" id="gameImageUrl2" />
 
+            <button class="save-second">Edit Game</button>
+            <button class="cancel-second">Cancel Edit Game</button>
+
+        </form>
+    </div>
     <div class="container"></div>
-
-
-    <!-- <form id="updateForm">
-        <label for="gameTitle">Title *</label>
-        <input type="text" value="" name="gameTitle" id="gameTitle" />
-
-        <label for="gameDescription">Description</label>
-        <textarea name="gameDescription" id="gameDescription"></textarea>
-  
-        <label for="gameImageUrl">Image URL *</label>
-        <input type="text" name="gameImageUrl" id="gameImageUrl" />
-
-        <button class="updateBtn">Save Changes</button>
-        <button class="cancelBtn">Cancel</button>
-    </form> -->
     
     <script src="model.js"></script>
-    <script src="view.js"></script>
 </body>
 </html>
